@@ -1,0 +1,11 @@
+{
+  "name": "ES6",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1"
+  },
+  "scripts": {
+    "start":"babel object.js -o com.js --watch"
+  }
+}
