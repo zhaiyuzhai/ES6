@@ -1,0 +1,11 @@
+var str="www.baidu.com cn";
+var str1=encodeURI(str);
+var str2=encodeURIComponent(str);
+console.log(str1);
+console.log(str2);
+var str3="var a=1;var b=2";
+eval(str3);
+console.log(a+b);
+var str4="{name:'zhaiyu',age:20}";
+var res=eval('{'+str4+'}');
+console.log(res.name);
