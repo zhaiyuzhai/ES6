@@ -25,7 +25,6 @@ var dog1=new dog();
             this.dom=document.getElementById(selector)
             alert(a);
         }
-
     }
     Function.prototype.method=function (methodsname,fn) {
         this.prototype[methodsname]=fn;
