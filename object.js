@@ -1,8 +1,10 @@
 var dessert=1;
 var drink=2;
+var eats=3;
 let food={
     dessert,
     drink,
+    eats,
     foo(){
         console.log(1);
     }

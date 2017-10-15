@@ -6,6 +6,6 @@
     "babel-preset-latest": "^6.24.1"
   },
   "scripts": {
-    "start":"babel object.js -o com.js --watch"
+    "start":"babel twice/src/11.js -o twice/dist/1.js --watch"
   }
 }
